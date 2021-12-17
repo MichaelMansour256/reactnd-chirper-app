@@ -17,7 +17,6 @@ class Tweet extends Component {
   }
   toParent = (e, id) => {
     e.preventDefault()
-    //TODO : go to parent tweet
     this.props.history.push(`/tweet/${id}`)
   }
   render() {
